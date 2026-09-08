@@ -1,0 +1,20 @@
+纤维-玻纤布-前处理
+
+打开方式：
+双击“启动纤维-玻纤布-前处理.cmd”。
+
+第1步：
+合并多个 fiber-rve 分组文件夹中的 Mechanical_constants.txt。
+输出完整 E/CTE 参数、纯 Mechanical_constants 合并表、以及 E/CTE + Mechanical_constants 合并表。
+
+第2步：
+读取第1步输出的 txt 或其他 CSV，绘制 E/CTE 敏感性图。
+会生成 fixed_E_x_CTE 和 fixed_CTE_x_E 两类图片文件夹。
+
+第3步：
+读取玻纤布转换 CSV，按 E 和 resin 分别分组绘制性能曲线。
+会生成 fixed_E_x_resin 和 fixed_resin_x_E 两类图片文件夹。
+
+使用时：
+每一步都是表单输入。路径可以点“选择”按钮。
+改完后点“保存并开始运行”。
